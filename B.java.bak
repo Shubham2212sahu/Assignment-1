@@ -1,0 +1,23 @@
+class B {
+
+	int a=10;
+	
+
+	public static void main(String[] args){
+		System.out.println("Main exe");
+
+		Display();
+		B refer = new B();
+		refer.Show();
+
+
+	}
+	static void Display(){
+		int b=20;
+		System.out.println(b);
+	}
+	void Show(){
+		System.out.println(" "+ a  );
+	}
+}
+
